@@ -1,0 +1,38 @@
+<div class="content">
+    <button (click)="wordOfTheDay()">Click to hide quotes</button>
+    <button (click)="wordOfTheDay2()">Click to get quotes</button>
+    <input [hidden]="!getCode" placeholder="Enter your birth year" (input)= "getYourAge($event)"><br><br>
+    <p [hidden]="!getCode">{{ holder }}</p>
+
+    <div [hidden]="getCode">
+        🚀 Embrace the Challenge!<br>
+
+              Coding is like solving puzzles. Every line of code is a piece of the puzzle, and when you put them together, you create something amazing. Sure, there are times when you'll stare at the screen, feeling like you're in the midst of a complex maze. But remember, each challenge you face is an opportunity to learn and grow. The harder the problem, the more satisfying the solution!<br><br>
+              
+              🌟 You're a Creator!
+              
+              Think about it: you're not just a coder; you're a creator. You have the power to bring your ideas to life, to build something from scratch, to shape the digital world around you. Whether it's a website, an app, or a piece of software, you're leaving your mark on the world. Embrace your role as a digital architect and let your creativity flow!<br><br>
+              
+              🌐 Continuous Learning is the Key!
+              
+              The tech world is ever-evolving, and that's what makes it so exciting. New languages, frameworks, and technologies are constantly emerging. Embrace the joy of learning, the thrill of staying on the cutting edge. Don't view it as a chore but as an adventure. The more you learn, the more versatile you become, and the more doors of opportunity swing open.<br><br>
+              
+              🚧 Failures Are Stepping Stones!
+              
+              Failure is not the end; it's a part of the journey. The best coders didn't become experts overnight. They faced bugs, errors, and setbacks. What made them great is their ability to learn from each failure, to debug their mistakes and come back stronger. Every error message is a lesson, and every bug is a chance to level up. So, don't fear failure; embrace it as a crucial step towards success.<br><br>
+              
+              👥 Join the Community!
+              
+              Coding is not a solitary endeavor. Connect with the global community of developers. Share your experiences, learn from others, and contribute to the collective knowledge. There's an immense satisfaction in knowing that you're part of something bigger. Collaboration and mentorship are powerful tools on your coding journey.<br><br>
+              
+              🎉 Celebrate Your Wins!
+              
+              In the world of coding, every line of working code is a victory. Don't forget to celebrate your successes, no matter how small. Whether it's fixing a bug, completing a challenging project, or simply understanding a complex concept, take a moment to acknowledge your achievements. It's these small victories that build up to create a successful coding career.<br><br>
+              
+              🚗 It's a Journey, Not a Sprint!
+              
+              Rome wasn't built in a day, and neither is a brilliant coder. Pace yourself, set realistic goals, and enjoy the journey. Remember, the road to mastery is filled with twists and turns. Enjoy the process, savor the moments of clarity, and appreciate the progress you make each day.<br><br>
+              
+              So, fellow coder, put on your headphones, sip that coffee, and let's code the future! You're not just writing lines; you're crafting possibilities. Happy coding! 🚀✨
+    </div>
+</div>

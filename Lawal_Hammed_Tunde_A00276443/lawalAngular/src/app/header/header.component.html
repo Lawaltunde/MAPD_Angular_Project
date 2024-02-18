@@ -1,0 +1,39 @@
+<!-- 
+    <p>header works!</p>
+<div>
+    <div>{{ title }}</div>
+    <div>{{ name }}</div>
+    <button (click)="onClick()">Click me</button>
+
+    <div [hidden]= "display">
+        <p>We are outside</p>
+    </div>
+
+    <input [(ngModel)] = "searchText">
+
+    <div>
+        <p>{{ searchText }}</p>
+    </div>
+</div> 
+-->
+    <header>
+        <h1>Lawal welcomes you all</h1>
+        <nav>
+            <ul>
+                <li><a href="https://lawaltunde.github.io/LawalTundeCMP-1991/">{{ firstNav }}</a></li>
+                <li><a href="https://lawaltunde.github.io/LawalTundeCMP-1991/hobbies.html">{{ secondNav }}</a></li>
+                <li><a href="https://github.com/Lawaltunde">{{ thirdNav }}</a></li><br><br>
+                <input [(ngModel)] = "searchText">
+                <div>
+                    <p>{{searchText}}</p>
+                </div>
+            </ul>
+        </nav>
+    </header>
+
+
+
+
+
+
+
